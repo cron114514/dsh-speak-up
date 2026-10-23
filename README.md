@@ -25,7 +25,7 @@
 ## 安装
 
 ```powershell
-git clone https://github.com/<you>/dsh-speak-up "$env:USERPROFILE\.dsh\plugins\dsh-speak-up"
+git clone https://github.com/cron114514/dsh-speak-up "$env:USERPROFILE\.dsh\plugins\dsh-speak-up"
 cd "$env:USERPROFILE\.dsh\profiles\desktop"
 # package.json：dependencies 加 "dsh-speak-up": "link:../../plugins/dsh-speak-up"
 #              dsh.profile.bundles 加 "dsh-speak-up"
