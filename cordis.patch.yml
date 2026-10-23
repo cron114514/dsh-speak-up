@@ -1,0 +1,15 @@
+# dsh-speak-up 的 bundle patch。
+#
+# 本插件没有声明 Config（不出现在「设置」页），配置写在这里的 config 下。
+- insert:
+    - id: speak-up
+      name: dsh-speak-up
+      config:
+        enabled: true
+        threshold: 0.45
+        cooldownMinutes: 6
+        quietAfterMinutes: 30
+        keywords: []
+        quietHours: []
+        promptOrder: 9060
+        promptMaxChars: 600
